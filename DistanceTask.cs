@@ -14,7 +14,7 @@ namespace DistanceTask
 
 			double cosABandAM = ((bx - ax)*(x - ax) + (by - ay)*(y - ay)) / (lengthAB * lenghtAM);
 			double cosBAandBM = ((ax - bx) * (x - bx) + (ay - by) * (y - by)) / (lengthAB * lengthBM);
-			
+
 			if (cosABandAM >= 0 && cosBAandBM >= 0)
 			{
 				if (cosABandAM == 1 && cosBAandBM == 1)
