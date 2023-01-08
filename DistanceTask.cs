@@ -19,7 +19,7 @@ namespace DistanceTask
 			{
 				if (cosABandAM == 1 && cosBAandBM == 1)
 				{
-					return 0;
+					return 0; 
 				} 
 				else
 				{
