@@ -20,7 +20,7 @@ namespace DistanceTask
 				if (cosABandAM == 1 && cosBAandBM == 1)
 				{
 					return 0;
-				}
+				} 
 				else
 				{
 					double halfPerimeter = (lenghtAM + lengthAB + lengthBM) / 2;
