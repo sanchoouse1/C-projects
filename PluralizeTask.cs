@@ -19,7 +19,7 @@
 				|| stringCount[stringCount.Length - 1] == '4') && (stringCount.Length > 1 
 				&& stringCount[stringCount.Length - 2] != '1' || stringCount.Length < 2))
 			{
-				return "рубля";
+				return "рубля";async 
 			}
 			else
 			{
